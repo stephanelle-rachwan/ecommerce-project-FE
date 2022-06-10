@@ -1,13 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+  background-color: #f6efdf;
+}
+
+/* the colors used are: 
+#f6efdf: light beige background l body
+#333: dark color for the 2nd part of the logo
+#5e5749: lightest part of the logo
+#fcf9f3: close to white but not white, for nav and forms
+#c5c5c5: border color for inputs
+*/
+
+.logo {
+  color: #333;
+}
+
+.special-color {
+  color: #5e5749;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  padding: 25px 150px;
+  background-color: #fcf9f3;
+}
+
+.login{
+    width: 400px;
+    margin: 25vh auto;
+    background-color: #fcf9f3;
+    border: 2px solid #fcf9f3;
+    border-radius: 10px;
+}
+
+.login>h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #5e5749;
+}
+
+.login-form{
+    margin: 20px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px 0;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #c5c5c5;
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 0 10px;
+}
+
+.login-btn {
+  font-size: 18px;
+  width: 100%;
+  font-weight: bold;
+  color: #fcf9f3;
+  background-color: #5e5749;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-btn:hover{
+  background-color: #333;
 }
