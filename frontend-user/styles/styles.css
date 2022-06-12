@@ -219,3 +219,34 @@ margin-top: 10px;
   color: #333;
 }
 /* end of log in */
+
+/* categories line */
+.category-display {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  padding: 25px 150px;
+  background-color: #fcf9f3;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.category-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* width: 50%; */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.category-list a {
+  color: #333;
+  padding: 0px 20px
+}
+
+.category-list a:hover {
+  color: #9D470D;
+}
