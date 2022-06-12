@@ -22,7 +22,17 @@
 <section>
   <div>
     <h2>Items</h2>
-    <button class="add-btn"><a href="#">Add Items</a></button>
+    <button class="add-btn" id="modalBtn"><a href="#">Add Items</a></button>
+  </div>
+
+  <!-- creating a model -->
+  <!-- reference w3 schools: https://www.w3schools.com/howto/howto_css_modals.asp -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Some text in the Modal..</p>
+    </div>
   </div>
 
   <div>
@@ -51,5 +61,6 @@
   </div>
 </section>  
 
+  <script src="../JS/modal.js"></script>
 </body>
 </html>
