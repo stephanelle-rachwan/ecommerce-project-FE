@@ -31,7 +31,23 @@
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">&times;</span>
-      <p>Some text in the Modal..</p>
+      
+      <label for="item-name">Name</label><br>
+      <input type="text" id="item-name" name="item-name" placeholder="Add new item name"> <br>
+      
+      <label for="item-price">Price</label><br>
+      <input type="number" id="item-price" name="item-price" placeholder="Add price"> <br>
+      
+      <label for="item-description">Description</label><br>
+      <input type="text" id="item-description" name="item-description" placeholder="Add description"> <br>
+
+      <label for="category-id">ID</label><br>
+      <input type="number" id="category-id" name="category-id" placeholder="Add category id"> <br>
+            
+      <label for="item-image">Image </label><i class="fa-solid fa-arrow-up-from-bracket"></i><br>
+      <input type="file" class="upload-btn" id="image-profile">
+
+      <button class="submit-btn" id="submitBtn">Submit</button>
     </div>
   </div>
 

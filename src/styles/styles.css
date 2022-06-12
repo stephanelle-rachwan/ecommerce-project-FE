@@ -151,20 +151,24 @@ ul>li {
 /* end table styling */
 
 /* add button styling */
-.add-btn {
+.add-btn, 
+.submit-btn {
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
   background-color: #9D470D;
   font-weight: bold;
   margin-top: 10px;
-}
-
-.add-btn a {
   color: #fcf9f3;
 }
 
-.add-btn:hover {
+.add-btn a ,
+.submit-btn a{
+  color: #fcf9f3;
+}
+
+.add-btn:hover, 
+.submit-btn:hover{
   background-color: #333;
 }
 /* end of add button styling */
@@ -191,7 +195,7 @@ ul>li {
   margin: auto;
   padding: 20px;
   border: 1px solid #fcf9f3;
-  width: 80%;
+  width: 50%;
 }
 
 /* The Close Button */
@@ -209,3 +213,16 @@ ul>li {
   cursor: pointer;
 }
 /* end of modal styling */
+
+/* form styling */
+input{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
