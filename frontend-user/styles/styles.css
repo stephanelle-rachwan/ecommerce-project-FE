@@ -17,6 +17,7 @@ body {
 
 .logo {
   color: #333;
+  font-size: 25px;
 }
 
 .special-color {
@@ -42,7 +43,7 @@ ul>li {
   justify-content: flex-end;
   align-items: center;
   width: 50%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -55,3 +56,42 @@ ul>li {
   color: #9D470D;
 }
 /* end of navbar styling */
+
+/* showcase and hero image */
+.page-content {
+  margin: 0 10%;
+}
+
+.showcase {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("/frontend-user/assets/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 70vh;
+  margin-bottom: 50px;
+}
+
+.hero-content { 
+  /* limiting the area of the title and parag */
+  width: 35%;
+  height: 100%;
+  color: #f6efdf;
+}
+
+.hero-title {
+  font-weight: bolder;
+  font-size: 60px;
+  line-height: 58px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+
+.hero-paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
