@@ -119,7 +119,6 @@ ul>li {
 .item-box {
   display: flex;
   flex-direction: column;
-  padding: 10px;
   border: 2px solid whitesmoke;
   border-radius: 10px;
   background-color: #fcf9f3;
@@ -134,7 +133,7 @@ ul>li {
 }
 
 .item-image > img {
-  width: 300px;
+  width: 330px;
   height: 300px;
   object-fit: cover;
 }
