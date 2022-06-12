@@ -143,8 +143,76 @@ ul>li {
   margin: auto auto;
   font-size: 25px;
   color: dimgray;
+  cursor: pointer;
 }
 
 .item-like:hover {
  color: darkred;
 }
+
+/* login page styling */
+/* Log In Styling */
+.login{
+  width: 400px;
+  margin: 25vh auto;
+  background-color: #fcf9f3;
+  border: 2px solid #fcf9f3;
+  border-radius: 10px;
+}
+
+.login>h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 22px;
+  color: #9D470D;
+}
+
+.login-form{
+  margin: 20px;
+}
+
+.input-box {
+width: 100%;
+padding: 10px 0;
+}
+
+input {
+width: 100%;
+height: 50px;
+border: 2px solid #c5c5c5;
+border-radius: 10px;
+font-size: 17px;
+padding: 0 10px;
+}
+
+.login-btn {
+font-size: 18px;
+width: 100%;
+font-weight: bold;
+color: #fcf9f3;
+background-color: #9D470D;
+padding: 10px 30px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.login-btn:hover{
+ background-color: #333;
+}
+
+.login-text{
+  color: #9D470D;
+  margin: 20px;
+}
+
+.login-text a{
+  color: #9D470D;
+  cursor: pointer;
+}
+
+.login-text a:hover{
+  color: #333;
+}
+/* end of log in */
