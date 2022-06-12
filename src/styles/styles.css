@@ -31,6 +31,11 @@ body {
 .special-color {
   color: #9D470D;
 }
+ 
+section {
+  margin: 0 10%;
+  margin-top: 20px;
+}
 
 /* Log In Styling */
 .login{
@@ -144,3 +149,22 @@ ul>li {
   padding: 15px 15px;
 }
 /* end table styling */
+
+/* add button styling */
+.add-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #9D470D;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.add-btn a {
+  color: #fcf9f3;
+}
+
+.add-btn:hover {
+  background-color: #333;
+}
+/* end of add button styling */
