@@ -152,22 +152,25 @@ ul>li {
 
 /* login page styling */
 /* Log In Styling */
-.login{
+.login, .signup {
   width: 400px;
-  margin: 25vh auto;
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fcf9f3;
   border: 2px solid #fcf9f3;
   border-radius: 10px;
 }
 
-.login>h1 {
+.login>h1 ,
+.signup>h1 {
   margin: 20px;
   text-align: center;
   font-size: 22px;
   color: #9D470D;
 }
 
-.login-form{
+.login-form, .signup-form{
   margin: 20px;
 }
 
@@ -185,7 +188,7 @@ font-size: 17px;
 padding: 0 10px;
 }
 
-.login-btn {
+.login-btn, .signup-btn{
 font-size: 18px;
 width: 100%;
 font-weight: bold;
@@ -198,7 +201,8 @@ cursor: pointer;
 margin-top: 10px;
 }
 
-.login-btn:hover{
+.login-btn:hover, 
+.signup-btn:hover{
  background-color: #333;
 }
 
