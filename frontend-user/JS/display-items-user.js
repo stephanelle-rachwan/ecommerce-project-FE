@@ -12,7 +12,7 @@
         card.classList.add('item-box');
         card.innerHTML = `
         <div class="item-image">
-          <img src="/frontend-user/assets/items/pants.jpg" alt="">
+          <img src="data:image/png;base64,${items[i]["image"]}" alt="">
         </div>
         <div class="item-info">
           <div class="item-text">
