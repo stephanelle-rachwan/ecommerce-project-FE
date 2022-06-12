@@ -14,6 +14,12 @@ submit.addEventListener("click", function (e) {
     url:"http://127.0.0.1:8000/api/v1/login" ,
     data:data,
 }).then(function (json) {
+    // console.log(json) //to get the json
+    // console.log(json.data) //to get the data 
+    // console.log(json.data.access_token) //to get the token
+
+    // gets the token and puts it in the local storage to save the token/session
+    localStorage.setItem("access_token",json.data["access_token"] )
     window.location.href="../index.html"
 })
 })
