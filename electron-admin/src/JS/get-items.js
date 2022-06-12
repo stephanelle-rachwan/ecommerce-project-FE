@@ -15,10 +15,10 @@ window.onload = function () {
       <td>${items[i]["item_name"]}</td>
       <td>${items[i]["price"]}</td>
       <td>${items[i]["description"]}</td>
-      <td><img class="img-sizing" src="data:image/png;base64,${items[i]["image"]}"></td>
+      <td><img src="data:image/png;base64,${items[i]["image"]}" height="100" width="100"></td>
       <td>${items[i]["category_id"]}</td>`;
 
-      display_items.appendChild(card);
+      display_items.appendChild(card); 
     }
   });
 };
