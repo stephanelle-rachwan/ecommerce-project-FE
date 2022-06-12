@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+/* the colors used are: 
+#f6efdf: light beige background l body
+#333: dark color for the 2nd part of the logo
+#9D470D: lightest part of the logo
+#fcf9f3: close to white but not white, for nav and forms
+#c5c5c5: border color for inputs
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -15,14 +24,6 @@ body {
   background-color: #f6efdf;
 }
 
-/* the colors used are: 
-#f6efdf: light beige background l body
-#333: dark color for the 2nd part of the logo
-#9D470D: lightest part of the logo
-#fcf9f3: close to white but not white, for nav and forms
-#c5c5c5: border color for inputs
-*/
-
 .logo {
   color: #333;
 }
@@ -31,15 +32,7 @@ body {
   color: #9D470D;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 20px;
-  padding: 25px 150px;
-  background-color: #fcf9f3;
-}
-
+/* Log In Styling */
 .login{
     width: 400px;
     margin: 25vh auto;
@@ -89,9 +82,18 @@ input {
 .login-btn:hover{
   background-color: #333;
 }
-/* end of index|sign in styling */
+/* end of log in styling */
 
-/* suite: navbar styling */
+/* Navbar styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  padding: 25px 150px;
+  background-color: #fcf9f3;
+}
+
 ul>li {
   list-style: none;
 }
@@ -101,17 +103,11 @@ ul>li {
   justify-content: space-evenly;
   align-items: center;
   width: 50%;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.nav-list {
   font-size: 15px;
   font-weight: bold;
 }
 
 .nav-list a {
-  text-decoration: none;
   color: #333;
 }
 
@@ -124,3 +120,27 @@ ul>li {
   padding-bottom: 15px;
   border-bottom: 2px solid #9D470D;
 }
+/* end of navbar styling */
+
+/* Table Styling */
+.table {
+  border-collapse: collapse;
+  margin: 30px auto;
+  min-width: 400px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  background-color: #fcf9f3;
+  color: #333;
+}
+
+.table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.table th,
+.table td {
+  padding: 15px 15px;
+}
+/* end table styling */
