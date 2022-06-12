@@ -3,7 +3,7 @@
 
 
 // Get the modal
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("modal_items");
 
 // Get the button that opens the modal
 var btn = document.getElementById("modalBtn");
