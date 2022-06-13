@@ -21,7 +21,7 @@
             <p>${items[i]["price"]}</p>
           </div>
           <div class="item-like">
-            <i class="fa-solid fa-heart"></i>
+            <div class="fa-solid fa-heart" onclick=addLike(this)></div>
           </div>
         </div>
       `;

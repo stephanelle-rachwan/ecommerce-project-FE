@@ -140,6 +140,7 @@ ul>li {
 
 .item-like {
   margin: auto auto;
+  margin-right: 30px;
   font-size: 25px;
   color: dimgray;
   cursor: pointer;
